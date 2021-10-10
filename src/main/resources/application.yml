@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      ddl-auto: none
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: true
+  devtools:
+    restart:
+      enabled: true
+missyou:
+  api-package: com.lin.missyou.api
+  year-codes: A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+
+wx:
+  appid: wxabe4aaed6ad56bfe
+  secret: 93c6caec13aa108e098a999132b8d3df
+  code2session: https://api.weixin.qq.com/sns/jscode2session?appid={0}&secret={1}&js_code={2}&grant_type=authorization_code

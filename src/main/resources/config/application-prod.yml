@@ -1,0 +1,8 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/sleeve?charactorEncoding=utf-8&serverTimezone=GM%2B8
+    username: root
+    password: xjh19951029SHNU
